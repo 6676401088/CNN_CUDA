@@ -1,0 +1,264 @@
+Sender: LSF System <lsfadmin@compute-2-137>
+Subject: Job 645498: <tavana> in cluster <mghpcc_cluster1> Done
+
+Job <tavana> was submitted from host <compute-2-136> by user <khavaritavana.m> in cluster <mghpcc_cluster1>.
+Job was executed on host(s) <compute-2-137>, in queue <par-gpu>, as user <khavaritavana.m> in cluster <mghpcc_cluster1>.
+</home/khavaritavana.m> was used as the home directory.
+</home/khavaritavana.m/CNN_GPU> was used as the working directory.
+Started at Sat Apr 16 02:18:22 2016
+Results reported at Sat Apr 16 02:20:22 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -J tavana
+#BSUB -o output_file
+#BSUB -e error_file
+#BSUB -n 1
+#BSUB -q par-gpu
+#span[ptile=32]
+#BSUB cwd /home/khavaritavana.m/CNN_GPU
+
+work=/home/khavaritavana.m/CNN_GPU
+
+cd $work
+
+./cnn
+./cnn
+./cnn
+./cnn
+./cnn
+./cnn
+./cnn
+./cnn
+./cnn
+./cnn
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :               111.85 sec.
+    Max Memory :             49 MB
+    Average Memory :         33.75 MB
+    Total Requested Memory : -
+    Delta Memory :           -
+    (Delta: the difference between total requested memory and actual max usage.)
+    Max Swap :               160113 MB
+
+    Max Processes :          4
+    Max Threads :            6
+
+The output (if any) follows:
+
+GRAYMAX: 255
+pixels read: 921600
+
+ ######## CPU running... ######## 
+CPU Elapsed time for layer 1 in CPU 0.950000 s
+CPU Elapsed time for layer 2 in CPU 1.090000 s
+CPU Elapsed time for layer 3 in CPU 7.500000 s
+CPU Elapsed time for layer 4 in CPU 0.020000 s
+number of detections = 8
+
+ ######## GPU running... ######## 
+Total time for layer 1 kernel: 0.002654	 sec
+Total time (comm+comput) for layer 1 : 0.004619	 sec
+Total time for layer 2 kernel : 0.010516	 sec
+Total time (comm+comput) for layer 2: 0.012413	 sec
+Total time for layer 3 kernel : 0.086698	 sec
+Total time (comm+comput) for layer 3 : 0.089343	 sec
+Total time for layer 4 kernel : 0.023409	 sec
+Total time (comm+comput) for layer 4 : 0.025537	 sec
+number of detections = 8
+GRAYMAX: 255
+pixels read: 921600
+
+ ######## CPU running... ######## 
+CPU Elapsed time for layer 1 in CPU 0.870000 s
+CPU Elapsed time for layer 2 in CPU 1.090000 s
+CPU Elapsed time for layer 3 in CPU 7.810000 s
+CPU Elapsed time for layer 4 in CPU 0.020000 s
+number of detections = 8
+
+ ######## GPU running... ######## 
+Total time for layer 1 kernel: 0.002682	 sec
+Total time (comm+comput) for layer 1 : 0.006415	 sec
+Total time for layer 2 kernel : 0.010628	 sec
+Total time (comm+comput) for layer 2: 0.014110	 sec
+Total time for layer 3 kernel : 0.086000	 sec
+Total time (comm+comput) for layer 3 : 0.091145	 sec
+Total time for layer 4 kernel : 0.023301	 sec
+Total time (comm+comput) for layer 4 : 0.027498	 sec
+number of detections = 8
+GRAYMAX: 255
+pixels read: 921600
+
+ ######## CPU running... ######## 
+CPU Elapsed time for layer 1 in CPU 0.890000 s
+CPU Elapsed time for layer 2 in CPU 1.090000 s
+CPU Elapsed time for layer 3 in CPU 7.510000 s
+CPU Elapsed time for layer 4 in CPU 0.020000 s
+number of detections = 8
+
+ ######## GPU running... ######## 
+Total time for layer 1 kernel: 0.002663	 sec
+Total time (comm+comput) for layer 1 : 0.006184	 sec
+Total time for layer 2 kernel : 0.010448	 sec
+Total time (comm+comput) for layer 2: 0.013869	 sec
+Total time for layer 3 kernel : 0.086591	 sec
+Total time (comm+comput) for layer 3 : 0.091598	 sec
+Total time for layer 4 kernel : 0.024177	 sec
+Total time (comm+comput) for layer 4 : 0.028314	 sec
+number of detections = 8
+GRAYMAX: 255
+pixels read: 921600
+
+ ######## CPU running... ######## 
+CPU Elapsed time for layer 1 in CPU 0.850000 s
+CPU Elapsed time for layer 2 in CPU 1.090000 s
+CPU Elapsed time for layer 3 in CPU 7.530000 s
+CPU Elapsed time for layer 4 in CPU 0.020000 s
+number of detections = 8
+
+ ######## GPU running... ######## 
+Total time for layer 1 kernel: 0.002662	 sec
+Total time (comm+comput) for layer 1 : 0.006196	 sec
+Total time for layer 2 kernel : 0.010340	 sec
+Total time (comm+comput) for layer 2: 0.013780	 sec
+Total time for layer 3 kernel : 0.086252	 sec
+Total time (comm+comput) for layer 3 : 0.091311	 sec
+Total time for layer 4 kernel : 0.022640	 sec
+Total time (comm+comput) for layer 4 : 0.026812	 sec
+number of detections = 8
+GRAYMAX: 255
+pixels read: 921600
+
+ ######## CPU running... ######## 
+CPU Elapsed time for layer 1 in CPU 0.820000 s
+CPU Elapsed time for layer 2 in CPU 1.090000 s
+CPU Elapsed time for layer 3 in CPU 7.500000 s
+CPU Elapsed time for layer 4 in CPU 0.020000 s
+number of detections = 8
+
+ ######## GPU running... ######## 
+Total time for layer 1 kernel: 0.002689	 sec
+Total time (comm+comput) for layer 1 : 0.006199	 sec
+Total time for layer 2 kernel : 0.010370	 sec
+Total time (comm+comput) for layer 2: 0.013799	 sec
+Total time for layer 3 kernel : 0.086027	 sec
+Total time (comm+comput) for layer 3 : 0.091003	 sec
+Total time for layer 4 kernel : 0.025954	 sec
+Total time (comm+comput) for layer 4 : 0.030059	 sec
+number of detections = 8
+GRAYMAX: 255
+pixels read: 921600
+
+ ######## CPU running... ######## 
+CPU Elapsed time for layer 1 in CPU 0.820000 s
+CPU Elapsed time for layer 2 in CPU 1.090000 s
+CPU Elapsed time for layer 3 in CPU 7.510000 s
+CPU Elapsed time for layer 4 in CPU 0.030000 s
+number of detections = 8
+
+ ######## GPU running... ######## 
+Total time for layer 1 kernel: 0.002656	 sec
+Total time (comm+comput) for layer 1 : 0.006177	 sec
+Total time for layer 2 kernel : 0.010488	 sec
+Total time (comm+comput) for layer 2: 0.013947	 sec
+Total time for layer 3 kernel : 0.086713	 sec
+Total time (comm+comput) for layer 3 : 0.091686	 sec
+Total time for layer 4 kernel : 0.022518	 sec
+Total time (comm+comput) for layer 4 : 0.026630	 sec
+number of detections = 8
+GRAYMAX: 255
+pixels read: 921600
+
+ ######## CPU running... ######## 
+CPU Elapsed time for layer 1 in CPU 0.830000 s
+CPU Elapsed time for layer 2 in CPU 1.090000 s
+CPU Elapsed time for layer 3 in CPU 7.510000 s
+CPU Elapsed time for layer 4 in CPU 0.020000 s
+number of detections = 8
+
+ ######## GPU running... ######## 
+Total time for layer 1 kernel: 0.002669	 sec
+Total time (comm+comput) for layer 1 : 0.005847	 sec
+Total time for layer 2 kernel : 0.010619	 sec
+Total time (comm+comput) for layer 2: 0.013607	 sec
+Total time for layer 3 kernel : 0.086240	 sec
+Total time (comm+comput) for layer 3 : 0.090586	 sec
+Total time for layer 4 kernel : 0.023890	 sec
+Total time (comm+comput) for layer 4 : 0.027109	 sec
+number of detections = 8
+GRAYMAX: 255
+pixels read: 921600
+
+ ######## CPU running... ######## 
+CPU Elapsed time for layer 1 in CPU 0.940000 s
+CPU Elapsed time for layer 2 in CPU 1.090000 s
+CPU Elapsed time for layer 3 in CPU 7.800000 s
+CPU Elapsed time for layer 4 in CPU 0.020000 s
+number of detections = 8
+
+ ######## GPU running... ######## 
+Total time for layer 1 kernel: 0.002647	 sec
+Total time (comm+comput) for layer 1 : 0.004623	 sec
+Total time for layer 2 kernel : 0.010567	 sec
+Total time (comm+comput) for layer 2: 0.012510	 sec
+Total time for layer 3 kernel : 0.086218	 sec
+Total time (comm+comput) for layer 3 : 0.088815	 sec
+Total time for layer 4 kernel : 0.023919	 sec
+Total time (comm+comput) for layer 4 : 0.025998	 sec
+number of detections = 8
+GRAYMAX: 255
+pixels read: 921600
+
+ ######## CPU running... ######## 
+CPU Elapsed time for layer 1 in CPU 0.930000 s
+CPU Elapsed time for layer 2 in CPU 1.090000 s
+CPU Elapsed time for layer 3 in CPU 7.520000 s
+CPU Elapsed time for layer 4 in CPU 0.020000 s
+number of detections = 8
+
+ ######## GPU running... ######## 
+Total time for layer 1 kernel: 0.002677	 sec
+Total time (comm+comput) for layer 1 : 0.005993	 sec
+Total time for layer 2 kernel : 0.010559	 sec
+Total time (comm+comput) for layer 2: 0.013903	 sec
+Total time for layer 3 kernel : 0.086377	 sec
+Total time (comm+comput) for layer 3 : 0.091207	 sec
+Total time for layer 4 kernel : 0.022224	 sec
+Total time (comm+comput) for layer 4 : 0.025811	 sec
+number of detections = 8
+GRAYMAX: 255
+pixels read: 921600
+
+ ######## CPU running... ######## 
+CPU Elapsed time for layer 1 in CPU 0.940000 s
+CPU Elapsed time for layer 2 in CPU 1.090000 s
+CPU Elapsed time for layer 3 in CPU 7.500000 s
+CPU Elapsed time for layer 4 in CPU 0.020000 s
+number of detections = 8
+
+ ######## GPU running... ######## 
+Total time for layer 1 kernel: 0.002671	 sec
+Total time (comm+comput) for layer 1 : 0.005800	 sec
+Total time for layer 2 kernel : 0.010360	 sec
+Total time (comm+comput) for layer 2: 0.013482	 sec
+Total time for layer 3 kernel : 0.086107	 sec
+Total time (comm+comput) for layer 3 : 0.090792	 sec
+Total time for layer 4 kernel : 0.022367	 sec
+Total time (comm+comput) for layer 4 : 0.025795	 sec
+number of detections = 8
+
+
+PS:
+
+Read file <error_file> for stderr output of this job.
+
